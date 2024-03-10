@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(22, 1, 22);
+    display: flex;
+    justify-content: center;
+    
+}
+.pro{
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    right: 180px;
+    bottom: 100px;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(1, 1, 73);
+    width: 500px;
+    height: 800px;
+    margin-top: 50px;
+    color: white;
+    
+
+    
+}
+.image{
+    border: 2px solid aquamarine;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 100px;
+    background-image: url("https://source.unsplash.com/150x150/?user");
+
+
+
+}
+.buttons>button{
+    border: 1px solid blue;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: blue;
+
+}
+.buttons>button:hover{
+    background-color: aqua;
+}
+.skills-card{
+    background-color: black;
+    position: ;
+    
+}
+.skills-card>span{
+    border: 1px solid white;
+}
